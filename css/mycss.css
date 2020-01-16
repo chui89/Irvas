@@ -1,0 +1,46 @@
+.timer p {
+    font-size: 1.2em;
+}
+.eTimer {
+    display: flex;
+}
+
+.time-block span {
+    background-color: #393939;
+    color: white;
+    font-size: 3em;
+    border-radius: 8px;
+    padding: 5px;
+    margin-right: 10px;
+}
+
+.time-block p {
+    font-size: 1.2em;
+    margin-top: 5px;
+    padding: 5px;
+    margin-right: 10px;
+}
+
+.hide {
+    display: none;
+}
+
+.show {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.full-image {
+    display: block;
+    margin: 5% auto;
+    height: 100%;
+}
+
+/* small devices, tablets */
+@media only screen and (max-width: 768px) {
+    .eTimer {
+        justify-content: center;
+    }
+}
